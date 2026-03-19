@@ -3,7 +3,7 @@ import os
 
 
 api_key = os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key="AIzaSyBeXrjHsZfWmpOwgWYqiHFtb6y6393WZRI")
+genai.configure(api_key="YOUR_API_KEY")
 
 model = genai.GenerativeModel("gemini-3-flash-preview")
 
